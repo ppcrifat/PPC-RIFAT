@@ -582,33 +582,42 @@
             </div>
 
             <!-- Form -->
-            <form action="https://formsubmit.co/info.merifat@gmail.com" method="POST" class="space-y-4">
-              <div>
-                <label class="block text-xs font-medium text-slate-200 mb-1" style="">Name</label>
-                <input type="text" placeholder="Your full name" class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2" style="">
-              </div>
-              <div>
-                <label class="block text-xs font-medium text-slate-200 mb-1" style="">Email</label>
-                <input type="email" placeholder="you@company.com" class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2" style="">
-              </div>
-              <div>
-                <label class="block text-xs font-medium text-slate-200 mb-1" style="">Website or business</label>
-                <input type="text" placeholder="yourwebsite.com or business name" class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2" style="">
-              </div>
-              <div>
-                <label class="block text-xs font-medium text-slate-200 mb-1" style="">What do you need help with?</label>
-                <textarea rows="4" placeholder="Example: Set up GA4, fix tracking, improve Google Ads performance, etc." class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2" style=""></textarea>
-              </div>
+           <form action="https://formsubmit.co/info.merifat@gmail.com" method="POST" class="space-y-4">
 
-              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pt-2">
-                <button type="submit" class="inline-flex items-center justify-center rounded-full bg-cyan-500 text-slate-950 text-sm font-semibold tracking-tight hover:bg-cyan-400 transition-colors shadow-lg shadow-cyan-500/30 px-5 py-2.5" style="">
-                  Send message
-                </button>
-                <p class="text-xs text-slate-400" style="">
-                  I’ll usually reply within 24–48 hours with a few ideas and questions.
-                </p>
-              </div>
-            </form>
+    <div>
+        <label class="block text-xs font-medium text-slate-200 mb-1">Name</label>
+        <input type="text" name="name" placeholder="Your full name"
+            class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2">
+    </div>
+
+    <div>
+        <label class="block text-xs font-medium text-slate-200 mb-1">Email</label>
+        <input type="email" name="email" placeholder="you@company.com"
+            class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2">
+    </div>
+
+    <div>
+        <label class="block text-xs font-medium text-slate-200 mb-1">Website or Business</label>
+        <input type="text" name="website" placeholder="yourwebsite.com or business name"
+            class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2">
+    </div>
+
+    <div>
+        <label class="block text-xs font-medium text-slate-200 mb-1">What do you need help with?</label>
+        <textarea rows="4" name="message"
+            placeholder="Example: Set up GA4, fix tracking issues, improve Google Ads performance, etc."
+            class="w-full rounded-2xl border border-slate-700 bg-slate-950/80 text-base text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-500/60 px-3 py-2"></textarea>
+    </div>
+
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pt-2">
+        <button type="submit"
+            class="inline-flex items-center justify-center rounded-full bg-cyan-500 text-slate-950 text-sm font-semibold tracking-tight hover:bg-cyan-400 transition-colors shadow shadow-cyan-500/30 px-5 py-2.5">
+            Send message
+        </button>
+        <p class="text-xs text-slate-400">I'll usually reply within 24–48 hours with a few ideas and questions.</p>
+    </div>
+
+</form>
           </div>
         </div>
       </section>
@@ -630,5 +639,6 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 
  c</body></html>
